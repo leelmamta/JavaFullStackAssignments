@@ -28,12 +28,18 @@ public class Employee {
     }
 
     boolean isEmployeeExempt(Employee employee){
-        if(employee.age>55)
-        {
-            return true;
-        }else
-        {
-            return false;
-        }
+        return employee.age > 55;
     }
+/**Getter and setter - Private **/
+//   Lets work over getter and setter method - Normally private members are not accessable for this we use getter and setter method (POJO)
+    private String ManagerName ;
+    private String ManagerAddress;
+    public String getManagerName(){
+        return ManagerName;
+    }
+    public String setManagerName(String ManagerName){
+        this.ManagerName = ManagerName;
+        return ManagerName;
+    }
+
 }
