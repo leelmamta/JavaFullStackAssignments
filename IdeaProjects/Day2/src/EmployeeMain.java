@@ -1,6 +1,9 @@
 public class EmployeeMain {
-  public static void main(String[] args){
+
+
+    public static void main(String[] args){
 //      Employee emp = new Employee();
+
 //      // Created Object  , = COntructor
 //      // Reference (Emp) variable - this will point to employee
 //      emp.name = "mamta";
@@ -21,7 +24,7 @@ public class EmployeeMain {
 
 //      Lets access getter and setter for  managers Name
       Employee emp2 = new Employee("pratyush", "livin in ", 56, true);
-      // we can access getter and setter method but not private managers name 
+      // we can access getter and setter method but not private managers name
 
   }
 

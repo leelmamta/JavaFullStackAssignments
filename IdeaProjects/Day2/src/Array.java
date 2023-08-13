@@ -8,14 +8,14 @@ class User{
         this.lName = lName;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", fName='" + fName + '\'' +
-                ", lName='" + lName + '\'' +
-                '}';
-    }
+   // @Override
+//    public String toString() {
+//        return "User{" +
+//                "id=" + id +
+//                ", fName='" + fName + '\'' +
+//                ", lName='" + lName + '\'' +
+//                '}';
+//    }
 }
 
 public class Array {
@@ -24,6 +24,7 @@ public class Array {
 //        Declaring ways of array
         int num[] = {1,5,6,8,9};
         int num1[] = new int[5];// In new case memory is allocated in heap
+
         for(int i =0 ; i<num.length;i++){
             System.out.println(num[i]);
         }
@@ -48,13 +49,14 @@ public class Array {
         users[3] = u4;
 
 //         Avoid This instead use tostring
-//        for (User user : users) {
-//            System.out.println(user.id + " " + user.fName + user.lName);
-//
+
+     for (User user : users) {
+////            System.out.println(user.id + " " + user.fName + user.lName);
+     System.out.println(user);
+    }
+//        for(User user:users){
+//            System.out.println(user);
 //        }
-        for(User user:users){
-            System.out.println(user);
-        }
 
 
     }
