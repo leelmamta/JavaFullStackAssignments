@@ -11,5 +11,6 @@ public class EnumDemo {
         // Calling enum in main
         AsssignmentStatus as = AsssignmentStatus.Completed;
         System.out.println(as);
+
     }
 }
