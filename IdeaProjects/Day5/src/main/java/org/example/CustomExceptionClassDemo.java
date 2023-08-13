@@ -10,7 +10,7 @@ package org.example;
 //                     - SQL Exception (JBDC)
 class InvalidDigitException extends Exception{
     public InvalidDigitException(String message){
-
+       super(message);
     }
 }
 public class CustomExceptionClassDemo {
@@ -18,9 +18,10 @@ public class CustomExceptionClassDemo {
           int b = -5;
         try {
 
-            if(b<0) throw new InvalidDigitException("Invalid Meessage");
+            if(b<0) throw new InvalidDigitException("Invalid Meessage not in theor");
         } catch (InvalidDigitException e) {
-            throw new RuntimeException(e);
+               System.out.println("CU");
+            System.out.println(e.getMessage());
         }
 
     }

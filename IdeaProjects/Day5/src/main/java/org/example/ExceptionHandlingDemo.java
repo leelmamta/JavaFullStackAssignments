@@ -10,7 +10,6 @@ public class ExceptionHandlingDemo {
         try{
             b = 12/a;
             System.out.println(b);
-
         }catch (Exception e){
             System.out.println(e);
         }
