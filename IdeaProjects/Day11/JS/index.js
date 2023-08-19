@@ -1,9 +1,10 @@
 // alert("messgae");
 
-let str = 'Here are  the things That i want to learn ';
+let str = 'Here are  the things That i want to learn';
 const fName = 'mamta'; 
 const LName = 'Leel'; 
 const age = 40; 
+
 console.log('My Name is'+fName+'And my age is '+age);
 console.log(`My Name is ${fName} and my age is ${age}`);
 
@@ -12,7 +13,7 @@ console.log(`My Name is ${fName} and my age is ${age}`);
 console.log(str.split(' '));
 console.log(str.concat(fName));
 console.log(str.slice(5, 20));
-console.log(str.slice(-30));
+console.log(str.slice(-5, -20));
 const numbers = new Array(1, 2, 3, 4); 
 // Important concept Here that we can update the values at particular place but not the array 
 const place = ['delhi', 'banglore', 'china', 'gurgoan']; 
