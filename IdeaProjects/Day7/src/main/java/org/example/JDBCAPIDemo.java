@@ -18,7 +18,12 @@ public class JDBCAPIDemo
             conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/myitems","root","1234");
             System.out.println("Connected");
             Statement statement = conn.createStatement();
+
+            int res = statement.executeUpdate("insert into myproducts values (3 , \"eyeliner\", 90, true);");
+            System.out.println(res+" "+"records Updated ");
             ResultSet resultSet = statement.executeQuery("select* from myproducts");
+
+
             while(resultSet.next()){
                 System.out.println(resultSet.getInt(1)+" "+resultSet.getString(2)+" "+resultSet.getInt(3));
             }
