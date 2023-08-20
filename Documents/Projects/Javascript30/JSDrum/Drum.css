@@ -1,0 +1,12 @@
+.keys{
+    background-color: aqua;
+    display: flex;
+    column-gap: 50px;
+}
+.key{
+    display: grid;
+    margin-top: 30px;
+    height: 30px;
+    width: 50px;
+    background-color: rgb(166, 118, 59);
+}
