@@ -1,0 +1,23 @@
+{
+  "name": "package",
+  "version": "1.0.1",
+  "description": "no any ",
+  "main": "Nodejs",
+  "scripts": {
+    "test": "no any "
+  },
+  "repository": {
+    "type": "git",
+    "url": "no "
+  },
+  "keywords": [
+    "no",
+    "any"
+  ],
+  "author": "mamta",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^8.47.0",
+    "uuid": "^9.0.0"
+  }
+}

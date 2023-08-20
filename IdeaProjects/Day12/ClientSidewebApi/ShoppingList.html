@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEb ApI </title>
+</head>
+<body>
+     <h2>
+        My Shopping List
+    </h2>
+    <div>
+       <label for="">Item</label>
+       <input type="text">
+       <button>AddItem</button>
+    </div>
+  <ul>
+    
+  </ul>
+   <script>
+    let item = document.querySelector('input'); 
+    let btn = document.querySelector('button'); 
+    let list = document.querySelector('ul'); 
+    btn.onclick = () =>{
+        let myItem = item.value; 
+        item.value = ''; 
+        console.log(myItem); 
+        // li -> create 
+        let listItem = document.createElement('li'); 
+        let ItemText = document.createElement('p');
+        let DeleteBtn = document.createElement('button'); 
+        console.log(listItem); 
+        console.log(ItemText);
+      
+        list.appendChild(listItem); 
+        listItem.appendChild(ItemText); 
+        ItemText.textContent = myItem; 
+        DeleteBtn.textContent = 'Delete'; 
+        listItem.appendChild(DeleteBtn); 
+        DeleteBtn.onclick = () =>{
+            list.removeChild(listItem);
+        }
+    }
+    
+   </script>
+
+</body>
+</html>

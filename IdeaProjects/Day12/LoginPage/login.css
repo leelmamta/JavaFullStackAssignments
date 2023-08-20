@@ -1,0 +1,11 @@
+
+.loginForms{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 70vw;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight:600px;
+    font-size: larger;
+}
