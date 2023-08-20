@@ -1,0 +1,51 @@
+[submodule "exercise-bt-conditionalstatements-ifelse"]
+	path = exercise-bt-conditionalstatements-ifelse
+	url = https://github.com/leelmamta/JavaFullStackAssignments.git
+[submodule "exercise-bt-conditionalstatements-switchcase"]
+	path = exercise-bt-conditionalstatements-switchcase
+	url = https://github.com/leelmamta/JavaFullStackAssignments.git
+[submodule "exercise-bt-exceptionhandling-exception"]
+	path = exercise-bt-exceptionhandling-exception
+	url = https://github.com/leelmamta/JavaFullStackAssignments.git
+[submodule "exercise-bt-fileio-iostreams"]
+	path = exercise-bt-fileio-iostreams
+	url = https://github.com/leelmamta/JavaFullStackAssignments.git
+[submodule "exercise-bt-common-java-classes-wrapper-classes"]
+	path = exercise-bt-common-java-classes-wrapper-classes
+	url = https://github.com/leelmamta/JavaFullStackAssignments.git
+[submodule "exercise-bt-lambdaexpression-comparator"]
+	path = exercise-bt-lambdaexpression-comparator
+	url = https://github.com/leelmamta/JavaFullStackAssignments.git
+[submodule "exercise-bt-loops-for-validation"]
+	path = exercise-bt-loops-for-validation
+	url = https://github.com/leelmamta/JavaFullStackAssignments.git
+[submodule "exercise-bt-loops-for-validatephonenumber"]
+	path = exercise-bt-loops-for-validatephonenumber
+	url = https://github.com/leelmamta/JavaFullStackAssignments.git
+[submodule "exercise-bt-oops-constructor-overloading-traveller"]
+	path = exercise-bt-oops-constructor-overloading-traveller
+	url = https://github.com/leelmamta/JavaFullStackAssignments.git
+[submodule "exercise-bt-oops-inheritance-polymorphism"]
+	path = exercise-bt-oops-inheritance-polymorphism
+	url = https://github.com/leelmamta/JavaFullStackAssignments.git
+[submodule "exercise-bt-streams-numbers"]
+	path = exercise-bt-streams-numbers
+	url = https://github.com/leelmamta/JavaFullStackAssignments.git
+[submodule "exercise-bt-streams-stringformat"]
+	path = exercise-bt-streams-stringformat
+	url = https://github.com/leelmamta/JavaFullStackAssignments.git
+[submodule "exercise-bt-strings-string"]
+	path = exercise-bt-strings-string
+	url = https://github.com/leelmamta/JavaFullStackAssignments.git
+[submodule "exercise-bt-genericcollection"]
+	path = exercise-bt-genericcollection
+	url = https://github.com/leelmamta/JavaFullStackAssignments.git
+[submodule "exercise-tc-genericcollection"]
+	path = exercise-tc-genericcollection
+	url = https://github.com/leelmamta/JavaFullStackAssignments.git
+[submodule "javascript-basics-assignment"]
+	path = javascript-basics-assignment
+	url = https://github.com/leelmamta/JavaFullStackAssignments.git
+[submodule "responsive-webpage-assignment"]
+	path = responsive-webpage-assignment
+	url = https://github.com/leelmamta/JavaFullStackAssignments.git
